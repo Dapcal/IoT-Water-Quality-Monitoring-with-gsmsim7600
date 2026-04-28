@@ -1,0 +1,19 @@
+# Fichiers de compilation Arduino
+/build/
+/bin/
+*.hex
+*.elf
+*.bin
+
+# Fichiers temporaires et de préprocès
+*.o
+*.d
+*.pyc
+
+# Configuration locale de l'IDE (ex: VS Code ou Arduino IDE)
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Fichiers de sauvegarde automatique
+*.bak
