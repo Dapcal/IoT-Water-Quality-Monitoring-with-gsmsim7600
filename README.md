@@ -64,17 +64,14 @@ Les bibliothèques suivantes sont requises pour la compilation :
 - `EEPROM` (Stockage des calibrations)
 
 ### Configuration
-1. Clonez le dépôt : `git clone https://github.com/votre-nom/IoT-Water-Monitoring.git`
+1. Clonez le dépôt : `git clone https://github.com/Dapcal/IoT-Water-Quality-Monitoring-with-gsmsim7600.git`
 2. Dans le fichier `.ino`, configurez l'APN de votre opérateur (ex: `orange.com`).
 3. Renseignez votre clé API ThingSpeak et les numéros de téléphone cibles.
 4. Téléversez sur votre carte Arduino.
 
 ---
 
-## 🛡️ Perspectives Sécurité (Cybersecurity)
-En tant qu'étudiant en Master Cybersécurité, une attention particulière est portée sur :
-- **Intégrité des données** : Vers une signature des paquets transmis.
-- **Confidentialité** : Migration prévue du protocole HTTP vers HTTPS/TLS.
+## 🛡️ Perspectives Sécurité
 - **Accès Distant** : Filtrage des numéros entrants pour le contrôle du module par SMS.
 
 ---
